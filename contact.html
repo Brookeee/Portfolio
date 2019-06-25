@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=BenchNine&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Link other HTML files -->
+    <link rel="text/html" href="contact.html">
+    <link rel="text/html" href="portfolio.html">
+    <title>Brooke's Portfolio</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <a class="navbar-brand" href="index.html" id="logo">Brooke Oliver</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="resume.pdf">Resume</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="col-lg-12">
+            <div class="emailform">
+                <form id="contact" action="mailto:oliver.brooke.a@gmail.com" method="post" enctype="text/plain">
+                    <p3>Quick Contact </p3>
+                    <h4>Please use the form below to contact me</h4>
+                    <fieldset>
+                        <input placeholder="Representing Employer" id="text" tabindex="1" name="name" required><br>
+                    </fieldset>
+
+                    <fieldset>
+                        <input placeholder="Email Contact" id="text" tabindex="2" name="mail" required><br>
+                    </fieldset>
+
+                    <fieldset>
+                        <input placeholder="Telephone Contact" id="tel" tabindex="3" name="phone" required><br>
+                    </fieldset>
+
+                    <fieldset>
+                        <textarea type="text" name="message" id="message" required></textarea><br>
+                    </fieldset>
+
+                    <fieldset>
+                        <button type="submit" id="contact-submit " data-submit="...Sending">Submit</button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="two-toned-footer-color"></div>
+            <p class="text-muted text-muted-footer text-center">
+                &copy; Copyright Brooke Oliver 2019
+            </p>
+        </footer>
+</body>
+
+</html>
