@@ -1,7 +1,7 @@
 body {
     background-image: url("../css/images/concrete_seamless.png");
 }
-.nav-link, .about-header, .aboutme, .footer, #logo, .emailform {
+.nav-link, .about-header, .aboutme, .footer, #logo, .emailform, #github, #project1, #project2, #project3, #crystalcode, h2 {
     font-family: 'BenchNine', sans-serif;
 }
 .aboutme{
@@ -31,9 +31,27 @@ body {
     width: 40%;
     border: 1px solid;
     margin: 0 0 2px;
-
 }
-
-
-
+#github {
+    text-align: center!important;
+    font-size: 32px;
+}
+/* #project1, #crystalcode {
+    text-align: center;
+    font-size: 24px; */
+/* } */
+#project2 {
+    text-align: center;
+    font-size: 22px;
+}
+#project3{
+    text-align: center;
+    font-size: 22px;
+}
+.text-muted {
+    font-size: 19px;
+}
+h2{
+    font-size: 18px;
+}
 
