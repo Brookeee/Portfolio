@@ -8,10 +8,10 @@ body {
     font-size: 24px;
 }
 .nav-link {
-    font-size: 21px;
+    font-size: 28px;
 }
 #logo {
-    font-size: 32px;
+    font-size: 44px;
 }
 .about-header{
     font-size: 32px;
@@ -58,6 +58,8 @@ a:hover{
 }
 .jumbotron {
     text-align: center!important;
-    font-size: 55px;
+    font-size: 62px;
     background-color: transparent;
+    margin: 20px;
+    background-color: transparent!important;
 }
