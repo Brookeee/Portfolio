@@ -1,7 +1,7 @@
 body {
     background-image: url("../css/images/concrete_seamless.png");
 }
-.nav-link, .about-header, .aboutme, .footer, #logo, .emailform, #github, #project1, #project2, #project3, #crystalcode, h2 {
+.nav-link, .about-header, .aboutme, .footer, #logo, .emailform, #github, #project1, #project2, #project3, #crystalcode, h2, #traincode, #psycode, .jumbotron {
     font-family: 'BenchNine', sans-serif;
 }
 .aboutme{
@@ -14,7 +14,7 @@ body {
     font-size: 32px;
 }
 .about-header{
-    font-size: 24px;
+    font-size: 32px;
 }
 .navbar {
     margin: 15px;
@@ -33,25 +33,31 @@ body {
     margin: 0 0 2px;
 }
 #github {
+   font-family: 'Alex Brush', cursive;
     text-align: center!important;
-    font-size: 32px;
+    font-size: 55px;
+    color: black;
+    text-shadow: 2px 1px;
 }
-/* #project1, #crystalcode {
-    text-align: center;
-    font-size: 24px; */
-/* } */
-#project2 {
-    text-align: center;
-    font-size: 22px;
-}
-#project3{
-    text-align: center;
-    font-size: 22px;
-}
+ #crystalcode, #traincode, #psycode {
+    font-size: 20px; 
+ }
 .text-muted {
     font-size: 19px;
 }
 h2{
     font-size: 18px;
 }
-
+a:hover{
+    color: white;
+    opacity: 0.5;
+}
+#githubimg:hover{
+    color: white;
+    opacity: 0.5;
+}
+.jumbotron {
+    text-align: center!important;
+    font-size: 55px;
+    background-color: transparent;
+}
