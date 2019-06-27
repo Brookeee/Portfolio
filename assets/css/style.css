@@ -1,10 +1,10 @@
 body {
     background-image: url("../css/images/concrete_seamless.png");
 }
-.nav-link, .about-header, .aboutme, .footer, #logo, .emailform, #github, #project1, #project2, #project3, #crystalcode, h2, #traincode, #psycode, .jumbotron {
+.nav-link, .about-header, .aboutme, .footer, #logo, .emailform, #github, #project1, #project2, #project3, #crystalcode, h2, #traincode, #psycode, .jumbotron, .skills {
     font-family: 'BenchNine', sans-serif;
 }
-.aboutme{
+.aboutme, .skills{
     font-size: 24px;
 }
 .nav-link {
