@@ -2,8 +2,8 @@
 body {
     background-image: url("../css/images/concrete_seamless.png");
 }
-.nav-link, .about-header, .aboutme, .footer, #logo, .emailform, #github, #project1, #project2, #project3, #crystalcode, h2, #traincode, #psycode, .jumbotron, .skills {
-    font-family: 'BenchNine', sans-serif;
+.aboutme, .footer, .emailform, #github, #project1, #project2, #project3, #project4, #crystalcode, h2, #traincode, #psycode, .jumbotron, .skills, #gproj1, #gproj2, #friend {
+    font-family: 'Stint Ultra Condensed', cursive;
 }
 .aboutme, .skills{
     font-size: 24px;
@@ -63,4 +63,12 @@ a:hover{
     background-color: transparent;
     margin: 20px;
     background-color: transparent!important;
+}
+#logo {
+    font-family: 'Kristi', cursive;
+    font-size: 60px;
+}
+.nav-link, .about-header {
+    font-family: 'Kristi', cursive;
+    font-size: 38px;
 }
