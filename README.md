@@ -8,5 +8,6 @@ Full Stack Development Portfolo
 
 #Future Updates 
 -Add all revamped assignments/projects
+- Updates 
 
 Check out my portfolio here: https://brookeee.github.io/Portfolio/
