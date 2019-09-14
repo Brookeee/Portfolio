@@ -2,7 +2,7 @@
 body {
     background-image: url("../css/images/concrete_seamless.png");
 }
-.aboutme, .footer, .emailform, #github, #project1, #project2, #project3, #project4, #crystalcode, h2, #traincode, #psycode, .jumbotron, .skills, #gproj1, #gproj2, #friend {
+.aboutme, .footer, .emailform, #github, #project1, #project2, #project3, #project4, #crystalcode, h2, #traincode, #psycode, .jumbotron, .skills, #gproj1, #gproj2, #friend, #burgercode, #reactcode {
     font-family: 'Stint Ultra Condensed', cursive;
 }
 .aboutme, .skills{
