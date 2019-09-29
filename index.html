@@ -5,89 +5,169 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Stint+Ultra+Condensed|Alex+Brush|Kristi" rel="stylesheet">
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!-- Link other HTML files -->
-    <!-- <link rel="text/html" href="contact.html">
-    <link rel="text/html" href="projects.html"> -->
-    <title>Brooke's Portfolio</title>
+    <title>Brooke Oliver</title>
+    <link rel="stylesheet" type="text/css" href="./styles/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Crushed&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700,800" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
-    <!-- Nav Bar fix for different responsiveness-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-            <a class="navbar-brand" href="index.html" id="logo">Brooke Oliver</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
-                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="index.html">About</a>
+    <!-- Navbar -->
+    <div class="navbar">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </div>
+    <!-- Jumbotron-->
+    <div class="container">
+        <div class="jumbotron">
+            <div class="jumbotron-text">
+                <h1>Brooke Oliver</h1>
+                <p>Full-Stack Web Developer</p>
+            </div>
+            <div class="jumbotron-social">
+                <ul class="ul-social">
+                    <li class="li-social-links">
+                        <a class="github" href="https://github.com/Brookeee" target="_blank"><i class="fa fa-github"
+                                aria-hidden="true"></i></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="projects.html">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="contact.html">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" rel="noopener no referrer" target="_blank"
-                            href="Resume class.pdf">Resume</a>
+                    <li class="li-social-links">
+                        <a class="linkedin" href="https://www.linkedin.com/in/brooke-oliver/" target="_blank"><i
+                                class="fa fa-linkedin" aria-hidden="true"></i></a>
                     </li>
                 </ul>
             </div>
+            <div id="down-arrow">
+                <span><a href="#about"><i class="fa fa-chevron-down" aria-hidden="true"></i></a></span>
+            </div>
         </div>
-    </nav>
-    <br>
-    <main class="container">
-        <section class="row">
-            <div class="col-md-6">
-                <article class="block">
-                    <h1 class="about-header">About Me</h1>
-                    <hr />
-            </div>
-            <div class="row">
-                <div class=col-sm-2></div>
-            </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <img src="assets/css/images/BIMG.jpeg" alt="placeholder" id="my-image">
+        <!-- About -->
+        <div class="row white box-shadow">
+            <div class="side-content"></div>
+            <div class="main-content">
+                <div class="content-header">
+                    <a class="anchor" name="about"></a>
+                    <h2>About</h2>
                 </div>
-                <div class="col-lg-8">
-                    <p class="aboutme">My name is Brooke Oliver. I am an Inventory Specialist. I am currently attending
-                        UPenn LPS Boot Camp to receive certification in Full-Stack Development. After spending many
-                        years in the retail industry and learning all that I can I am currently exploring the world of
-                        web design and programming.
-                        As I embark on this journey of endless learning I utilize my critical thinking, problem solving
-                        and basic technology skills to aid me.</p>
-                    <p class="skills">
-                        Experience includes: Microsoft Office, IBM, Manhattan Associates, FastTrak, Cognos, HTML,
-                        CSS,
-                        Javascript, MongoDB, Node, Express, Firebase, Sequelize, MySQL, Visual Studio Code and Github.
-                    </p>
+                <div class="content-body">
+                    <p>My name is Brooke Oliver. I am a Full Stack Developer. Taking my creativity and tech interest to
+                        the next level. I attended Triology UPenn LPS Coding Bootcamp. Currently seeking freelance and
+                        entry level development work, as well as remote opportunities.</p>
                 </div>
             </div>
-            </article>
-            </div>
-            </div>
-        </section>
-    </main>
-    <br>
-    <footer class="footer">
-        <div class="two-toned-footer-color"></div>
-        <p class="text-muted text-muted-footer text-center">
-            &copy; Copyright Brooke Oliver 2019
-        </p>
-    </footer>
+            <div class="side-content"></div>
+        </div>
+        <!-- Projects-->
+        <div class="row">
+            <div class="side-content-sm"></div>
+            <div class="main-content-lg">
+                <div class="content-header">
+                    <a class="anchor" name="projects"></a>
+                    <h2>Projects</h2>
+                </div>
+                <div class="content-body">
+                    <div class="content-body">
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src="./styles/css/images/jquery.jpg">
+                            </div>
+                            <div class="project-content">
+                                <h4>Crystal Collector</h4>
+                                <p> Crystal Collector game allows users to pick a crystal to beat the computer.</p>
+                                <a href="https://brookeee.github.io/unit-4-game/">Link to Github</a>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src="./styles/css/images/sequelize.png">
+                            </div>
+                            <div class="project-content">
+                                <h4>Eat Da Burger</h4>
+                                <p>Eat Da Burger is a sequelize application with a homemade ORM and MySQL database.
+                                </p>
+                                <a href="https://pure-spire-89335.herokuapp.com/">Link to Heroku</a>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src="./styles/css/images/reactjs.png">
+                            </div>
+                            <div class="project-content">
+                                <h4>Music React Clicky Game</h4>
+                                <p>Music Clicky game is a ReactJS application. You must pick the correct artist to
+                                    earn a point. Try not click the same artist image twice. You might lose.</p>
+                                <a href="https://intense-sea-89078.herokuapp.com/">Link to Heroku</a>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src="./styles/css/images/project.jpg">
+                            </div>
+                            <div class="project-content">
+                                <h4>Tread Lightly</h4>
+                                <p>Tread Lightly is an application that educates and informs users of their carbon
+                                    footprint. This app provides carbon footprint data in multiple countries and
+                                    allows a user to calculate their impact on the world. This was a collective
+                                    project with 3 other developers.</p>
+                                <a href="https://project2-upenn.herokuapp.com/">Link to Heroku</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="side-content-sm"></div>
 
+            <div class="row white box-shadow">
+                <div class="side-content"></div>
+                <div class="main-content">
+                    <div class="content-header">
+                        <a class="anchor" name="skills"></a>
+                        <h2>Skills</h2>
+                    </div>
+                    <div class="content-body">
+                        <ul class="ul-skills">
+                            <li class="li-skills">HTML</li>
+                            <li class="li-skills">CSS</li>
+                            <li class="li-skills">JavaScript</li>
+                            <li class="li-skills">React</li>
+                            <li class="li-skills">Node.js</li>
+                            <li class="li-skills">Bootstrap</li>
+                            <li class="li-skills">JQuery</li>
+                            <li class="li-skills">MySQL</li>
+                            <li class="li-skills">MongoDB</li>
+                            <li class="li-skills">Sequelize</li>
+                            <li class="li-skills">Firebase</li>
+                            <li class="li-skills">Mongoose</li>
+                            <li class="li-skills">Visual Studio Code</li>
+                            <li class="li-skills">Git and Command Line</li>
+                            <li class="li-skills">Heroku</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="side-content"></div>
+            </div>
+
+            <div class="row purple">
+                <div class="side-content"></div>
+                <div class="main-content">
+                    <div class="content-header">
+                        <a class="anchor" name="contact"></a>
+                        <h2 class="white-text">Contact Me</h2>
+                    </div>
+                    <div class="contact content-body">
+                        <form method="POST" action="https://formspree.io/oliver.brooke.a@gmail.com">
+                            <input type="hidden" name="_subject" value="Contact request from website" />
+                            <input type="email" name="_replyto" placeholder="Your email" required>
+                            <textarea name="message" placeholder="Message" required></textarea>
+                            <button type="submit">Send</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="side-content"></div>
+            </div>
+        </div>
 </body>
 
 </html>

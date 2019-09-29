@@ -1,13 +1,11 @@
 # Portfolio
 
-Full Stack Development Portfolo
+Brooke Oliver Portfolio
  
 #Updates 
-- Added some projects/HW assignments 
-- Changed Fonts
+- Revamped portfolio to be Employer Ready/Competitive 
 
 #Future Updates 
--Add all revamped assignments/projects
-- Updates 
+- Adding more projects 
 
 Check out my portfolio here: https://brookeee.github.io/Portfolio/
